@@ -21,8 +21,8 @@ def send_message (index : int, icon : str, percentage_change, news_content):
 
 date = datetime
 current_date = date.now()
-date_before_two_days = str((current_date - timedelta(days=3)).date())
-date_before_three_days = str((current_date - timedelta(days=4)).date())
+date_before_two_days = str((current_date - timedelta(days=2)).date())
+date_before_three_days = str((current_date - timedelta(days=3)).date())
 
 # Company stock API Key
 STOCK = "TSLA"
